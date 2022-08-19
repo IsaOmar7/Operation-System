@@ -1,0 +1,33 @@
+omarissa,ameerg
+omar issa -211542550, ameer ganem -318702107
+ex5:
+
+files:
+container.cpp
+socket.cpp
+
+Q1:
+One of the uses of PID namespaces is  the isolation, that means that process
+with different PID's namespaces can have the same PID, that’s mean that PID
+namespaces isolate the process ID number space because both process are in
+different PID namespaces.
+Q2:
+When linux create sperate mount namespace that actually the isolation that mean
+that each process in different mount namespace have different view to the
+system mountpoint, that mean that different mount namespace have
+different views for their own process.
+Q3:
+Linux cgroup allows allocation of system resources for groups to work on
+one of these allocations is CPU or memory and etc.
+Q4:
+The use of clone is to create process/threads that run in Parallel in program
+or in the same time in the same memory space, the difference between clone
+and fork that fork calls allow the child process to share parts of its
+execution context with the calling process.
+Q5:
+Chroot command is used to change the root directory of processes
+and processes also mean their child process.
+Q6:
+The procfs provides a method of communication between kernel and user space,
+for example the GNU version of the process reporting utility ps uses
+the proc fs to obtain its data, without using any specialized system calls.
